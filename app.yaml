@@ -1,0 +1,16 @@
+runtime: nodejs22
+instance_class: F2
+
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'production'
+  DATABASE_NAME: 'postgres'
+  DATABASE_USER: 'postgres'
+  DATABASE_PASSWORD: 'VxnZqj#Rhh%_QtRA'
+  INSTANCE_CONNECTION_NAME: 'myfirtststrapi:southamerica-east1:strapi'
+  GCS_BUCKET_NAME: 'strapi-rafa-cms-gcp'
+  GCS_BASE_PATH: 'cms'
+  TMPDIR: /tmp
+
+beta_settings:
+  cloud_sql_instances: 'CLOUD_SQL_CONNECTION_NAME'
